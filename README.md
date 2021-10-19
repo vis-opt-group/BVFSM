@@ -4,6 +4,8 @@ this is the official code for the paper ["A Value-Function-based Interior-point 
  ""
 
 ## Environment Preparing
+
+
 ```
 python 3.6
 pytorch 1.6
@@ -22,7 +24,7 @@ You can adjust the algorithm through parameter setting. We will give the default
 The results will be saved in `./result_{time.strftime("%Y_%m_%d_%H_%M_%S")}.csv`
 ```
 python optimistic.py
---size 2         #Lower level problem dimension
+--y_size 2         #Lower level problem dimension
 --z_loop 50
 --y_loop 25
 --x_loop 500
