@@ -23,7 +23,7 @@ We provide examples for optimistic BLO.<br>
 You can adjust the algorithm through parameter setting. We will give the default setting in the following example.
 The results will be saved in `./result_{time.strftime("%Y_%m_%d_%H_%M_%S")}.csv`
 ```
-python optimistic.py
+python demo.py
 --y_size 2         #Lower level problem dimension
 --z_loop 50
 --y_loop 25
