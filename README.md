@@ -5,10 +5,10 @@ this is the official code for the paper ["A Value-Function-based Interior-point 
 
 ## Environment Preparing
 
+Our code runs on the windows platform based on Python 3.6. You can simply execute the following command to automatically configure the environment
 
 ```
-python 3.6
-pytorch 1.6
+pip install -r requirement.txt
 ```
 
 ### Training
@@ -37,14 +37,12 @@ python optimistic.py
 --x0 0.
 --y0 0.
   ```
-  
   In addition, you can also manually change the lower objective *f* ``def lf(x,y)`` and upper objective *F* ``def uF(x,y)`` in the code to test the functions you need
 ```
 def lf(x, y):
     out = 0
-    for i in range(tSize):
+    for i in range(args.y_size):
         out = out + torch.sin((x + y[i] - C[i]))
-
     return out
 
 
