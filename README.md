@@ -58,6 +58,20 @@ def uF(x, y):
 If you find our work useful in your research please consider citing our paper:
 
 ```
+@inproceedings{liu2021value,
+	title={A Value-Function-based Interior-point Method for Non-convex Bi-level Optimization},
+	author={Liu, Risheng and 
+	Liu, Xuan and 
+	Yuan, Xiaoming and 
+	Zeng, Shangzhi and 
+	Zhang, Jin},
+	journal={arXiv preprint arXiv:2106.07991},
+	booktitle = {ICML},
+	year={2021}
+}
+
+
+
 @misc{liu2021valuefunctionbased,
       title={Value-Function-based Sequential Minimization for Bi-level Optimization}, 
       author={Risheng Liu and Xuan Liu and Shangzhi Zeng and Jin Zhang and Yixuan Zhang},
