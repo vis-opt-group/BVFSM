@@ -1,7 +1,13 @@
 # Value-Function-based Sequential Minimization for Bi-level Optimization
-this is the official code for the paper ["A Value-Function-based Interior-point Method for Non-convex Bi-level Optimization"](https://icml.cc/virtual/2021/poster/9581) and its extended version ["Value-Function-based Sequential Minimization for Bi-level Optimization"](https://arxiv.org/abs/2110.04974)
+This is the official code for the paper ["A Value-Function-based Interior-point Method for Non-convex Bi-level Optimization"](https://icml.cc/virtual/2021/poster/9581) (ICML2021) and its improved version ["Value-Function-based Sequential Minimization for Bi-level Optimization"](https://arxiv.org/abs/2110.04974)
 
  ""
+
+## Introduction
+This is an efficient algorithm for solving bilevel optimization problems. 
+
+
+
 
 ## Environment Preparing
 
